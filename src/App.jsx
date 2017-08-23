@@ -49,7 +49,7 @@ class App extends Component {
         </div>
         <main>
           <p className="toggler">
-            Pointless toggle state: {this.state.toggler.toString()}
+            Pointless state: {this.state.toggler.toString()}
           </p>
           <input
             type="button"
