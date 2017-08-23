@@ -6,6 +6,8 @@ import registerServiceWorker from "./registerServiceWorker";
 
 /**
  * https://github.com/garbles/why-did-you-update
+ * why-did-you-update is not yet compatible with React 15.6+,
+ * lines 13-20 fix that
  */
 
 // {

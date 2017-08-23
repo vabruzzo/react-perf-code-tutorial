@@ -45,16 +45,16 @@ class App extends Component {
       <div className="App">
         <div className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
-          <h2>Welcome to React Performance Demo</h2>
+          <h2>React Performance Demo</h2>
         </div>
         <main>
           <p className="toggler">
-            Toggler: {this.state.toggler.toString()}
+            Pointless toggle state: {this.state.toggler.toString()}
           </p>
           <input
             type="button"
             onClick={this.handleTogglerOnClick}
-            value="Toggle Irrelevant State"
+            value="Toggle Pointless State"
           />
           <AddItemForm handleSubmit={this.handleAddItemSubmit.bind(this)} />
           <div className="listsWrapper">
