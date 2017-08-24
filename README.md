@@ -10,3 +10,5 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 4. Understand why component methods should be bound in `constructor`
 5. Utilize `why-did-you-update`
 6. Understand the use and necessity of immutability
+
+The code is commented out, refer there for explanations. Feel free to open a pull request to add additional comments, etc.
