@@ -12,3 +12,5 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 6. Understand the use and necessity of immutability
 
 The code is commented out, refer there for explanations. Feel free to open a pull request to add additional comments, etc.
+
+Notice right now that if you toggle the pointless state, `List.jsx` is re-rendered unnecessarily. `why-did-you-update` warns us about this in the console. The point of this tutorial is to implement either `shouldComponentUpdate` or `PureComponent` to avoid that re-render. Immutability is an important component of that.
